@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="js/jquery-3.3.1.min.js"></script>
+
+    <script>
+        $(function () {
+            $.ajax({
+                url:"/article/getAll",
+                data:{},
+                dataType:"json",
+                type:"post",
+                success:function (list) {
+                    var table=$("#table");
+                    for (var i in list){
+                        table.append("<tr><td>"+list[i].id+"</td>"+
+                            "<td>"+list[i].date+"</td>"+
+                            "<td>"+list[i].lookCount+"</td>"+
+                            "<td>"+list[i].describe+"</td>"+
+                            "<td>"+list[i].picture+"</td>"+
+                            "<td>"+list[i].headline+"</td>"+
+                            "<td>"+list[i].flag+"</td>"+
+                            "<td>"+list[i].type+"</td>"+
+                            "<td>"+"</td>"+
+                            +"</tr>");
+
+                    }
+
+                }
+            })
+        })
+    </script>
+</head>
+<body>
+
+测试成功
+<a href="insert.jsp"> 添加</a>
+<a href="/article/updataLook">喜欢</a>
+
+<form>
+    <table id="table" align="center" width="700px" cellspacing="0" cellpadding="0">
+        <caption>文章表</caption>
+        <tr>
+            <td>发帖者</td>
+            <td>发布时间</td>
+            <td>观看次数</td>
+            <td>描述内容</td>
+            <td>图片</td>
+            <td>标题</td>
+            <td>逻辑删除</td>
+            <td>积分</td>
+            <td>模块类型标签</td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>

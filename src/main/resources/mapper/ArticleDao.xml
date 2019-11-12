@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.qf.Dao.ArticleDao">
+    <resultMap id="articleMap" type="article">
+        <id property="id" column="a_id"></id>
+        <result property="uid" column="a_uid"></result>
+        <result property="mid" column="a_mid"></result>
+        <result property="headline" column="a_headline"></result>
+        <result property="lookCount" column="a_lookCount"></result>
+        <result property="content" column="a_content"></result>
+        <result property="date" column="a_date"></result>
+        <result property="flag" column="a_flag"></result>
+
+        <collection property="user"  ofType="user">
+            <id property="id" column="u_id"></id>
+            <result property="username" column="u_username"></result>
+            <result property="password" column="u_pas   sword"></result>
+            <result property="name" column="u_name"></result>
+            <result property="sex" column="u_sex"></result>
+            <result property="email" column="u_email"></result>
+            <result property="flag" column="u_flag"></result>
+            <result property="isAdmin" column="u_isAdmin"></result>
+            <result property="score" column="u_score"></result>
+            <result property="isBanned" column="u_isBanned"></result>
+        </collection>
+
+<!--        <collection property="">-->
+
+<!--        </collection>-->
+    </resultMap>
+
+    <select id="findAll" resultMap="articleMap">
+            SELECT
+            u.*,a.*
+            FROM
+            user u left join article a
+            on u.u_id = a.a_uid
+            WHERE  u_isBanned = 0 and a_flag = 0
+    </select>
+
+    <insert id="saveById" parameterType="article">
+        insert into article(a_date,a_lookCount,a_content,a_headline,a_uid,a_mid)
+        VALUES (#{date},#{lookCount},#{content},#{headline},#{uid},#{mid})
+    </insert>
+
+    <update id="lookCount" parameterType="INT">
+        UPDATE article set a_lookCount=(a_lookCount+1) where a_id=#{id};
+    </update>
+
+
+    <!--SELECT*FROM article where a_headline like  #{headline}-->
+    <select id="findLike" parameterType="java.lang.String" resultMap="articleMap">
+            SELECT
+            a.* , u.*
+            FROM article a left JOIN user u
+            on u.u_id = a.a_uid
+            WHERE u_isBanned = 0 and a_flag =0 and a_headline like  #{headline}
+    </select>
+
+    <select id="findType" resultType="INT">
+        SELECT  count(*)  FROM article WHERE a_mid=1 and a_flag=0;
+    </select>
+
+    <select id="findType2" resultType="INT">
+        SELECT  count(*)  FROM article WHERE a_mid=2 and a_flag=0;
+    </select>
+
+</mapper>
