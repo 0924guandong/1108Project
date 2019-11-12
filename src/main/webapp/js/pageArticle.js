@@ -119,9 +119,9 @@ $(function () {
                 // "<div class="+"category"+"><a href="+"#"+">"+list[i].id+"</a></div>"
                 //显示id                  /article/saveById/888
                 //点击跳转
-                "<div class=" + "category" + "><a href=" + "/look/" + item.id + ">" + item.id + "</a></div>"
-                +
-                "</div><a href=" + "post.html>" +
+                // "<div class=" + "category" + "><a href=" + "/look/" + item.id + ">" + item.id + "</a></div>"
+                // +
+                "</div><a href=" + "/look/" + item.id + ">" +
                 //显示标题
                 "<h3 class=" + "h4" + ">" + item.headline.substring(0, 30) + "..." + "</h3></a>" +
                 // 显示内容
