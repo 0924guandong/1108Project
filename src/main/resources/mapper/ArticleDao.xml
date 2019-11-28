@@ -5,31 +5,28 @@
 
 <mapper namespace="com.qf.Dao.ArticleDao">
     <resultMap id="articleMap" type="article">
-        <id property="id" column="a_id"></id>
-        <result property="uid" column="a_uid"></result>
-        <result property="mid" column="a_mid"></result>
-        <result property="headline" column="a_headline"></result>
-        <result property="lookCount" column="a_lookCount"></result>
-        <result property="content" column="a_content"></result>
-        <result property="date" column="a_date"></result>
-        <result property="flag" column="a_flag"></result>
+        <id property="a_id" column="a_id"></id>
+        <result property="a_uid" column="a_uid"></result>
+        <result property="a_mid" column="a_mid"></result>
+        <result property="a_headline" column="a_headline"></result>
+        <result property="a_lookCount" column="a_lookCount"></result>
+        <result property="a_content" column="a_content"></result>
+        <result property="a_date" column="a_date"></result>
+        <result property="a_flag" column="a_flag"></result>
 
         <collection property="user"  ofType="user">
-            <id property="id" column="u_id"></id>
-            <result property="username" column="u_username"></result>
-            <result property="password" column="u_pas   sword"></result>
-            <result property="name" column="u_name"></result>
-            <result property="sex" column="u_sex"></result>
-            <result property="email" column="u_email"></result>
-            <result property="flag" column="u_flag"></result>
-            <result property="isAdmin" column="u_isAdmin"></result>
-            <result property="score" column="u_score"></result>
-            <result property="isBanned" column="u_isBanned"></result>
+            <id property="u_id" column="u_id"></id>
+            <result property="u_username" column="u_username"></result>
+            <result property="u_password" column="u_password"></result>
+            <result property="u_name" column="u_name"></result>
+            <result property="u_sex" column="u_sex"></result>
+            <result property="u_email" column="u_email"></result>
+            <result property="u_flag" column="u_flag"></result>
+            <result property="u_isAdmin" column="u_isAdmin"></result>
+            <result property="u_score" column="u_score"></result>
+            <result property="u_isBanned" column="u_isBanned"></result>
         </collection>
 
-<!--        <collection property="">-->
-
-<!--        </collection>-->
     </resultMap>
 
     <select id="findAll" resultMap="articleMap">
@@ -61,11 +58,99 @@
     </select>
 
     <select id="findType" resultType="INT">
-        SELECT  count(*)  FROM article WHERE a_mid=1 and a_flag=0;
+        SELECT  count(*)
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        WHERE a.a_flag=0 and  u.u_isBanned=0 and a.a_mid=1;
+
     </select>
 
     <select id="findType2" resultType="INT">
-        SELECT  count(*)  FROM article WHERE a_mid=2 and a_flag=0;
+        SELECT  count(*)
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        WHERE a.a_flag=0 and  u.u_isBanned=0 and a.a_mid=2;
+
+    </select>
+
+    <select id="findTravel" resultMap="articleMap">
+        SELECT
+        a.* , u.*
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0 and a.a_mid = 1
+
+    </select>
+
+    <select id="TravelLike" parameterType="java.lang.String"  resultMap="articleMap">
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        where  a.a_flag = 0 and u.u_isBanned = 0 and a.a_mid=1  and  a.a_content like #{content}
+
+    </select>
+
+    <select id="findLive" resultMap="articleMap">
+        SELECT
+        a.* , u.*
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0 and a.a_mid = 2
+
+    </select>
+
+    <select id="LiveLike" parameterType="java.lang.String"  resultMap="articleMap">
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN `user` u
+        on a.a_uid = u.u_id
+        where  a.a_flag = 0 and u.u_isBanned = 0 and a.a_mid=2  and  a.a_content like #{content}
+    </select>
+
+    <select id="findNew" resultMap="articleMap" >
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN user u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0
+        order by a.a_date DESC
+    </select>
+
+    <select id="findEarly" resultMap="articleMap" >
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN user u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0
+        order by a.a_date
+    </select>
+
+    <select id="findMost" resultMap="articleMap" >
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN user u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0
+        order by a.a_lookCount DESC
+    </select>
+
+    <select id="findWriter" parameterType="java.lang.String" resultMap="articleMap">
+        SELECT
+        a.*,u.*
+        FROM
+        article a LEFT JOIN user u
+        on a.a_uid = u.u_id
+        where a.a_flag = 0 and u.u_isBanned = 0 and u.u_username like  #{username}
     </select>
 
 </mapper>

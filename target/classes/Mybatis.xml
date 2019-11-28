@@ -11,6 +11,9 @@
     <mappers>
         <mapper resource="mapper/ArticleDao.xml"></mapper>
         <mapper resource="mapper/MotifDao.xml"></mapper>
+
+<!--        <mapper resource="mapper/ICommentDao.xml"></mapper>-->
+
     </mappers>
 
 </configuration>

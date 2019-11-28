@@ -6,25 +6,24 @@ import com.qf.domain.Article;
 import com.qf.domain.Msg;
 import com.qf.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
 //@Controller
 //@RequestMapping("article")
-@RestController//@Controller和@ResponseBody的结合
+@RestController
 public class ArticleController {
 
     @Autowired
     private ArticleService articleService;
+
+
 
     //测试获取全部列表内容
     //    @RequestMapping("findAll")
@@ -66,15 +65,20 @@ public class ArticleController {
 //        自动生成当前时间
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         Date date = new Date();
-        String format = sdf.format(   date);
+        String format = sdf.format(date);
+
+
         //设置当前时间
-        article.setDate(format);
+        article.setA_date(format);
         //设置用户id
-        article.setUid(2);
+//        article.setUid(2);
+        article.setA_uid(2);
         //设置默认观看次数为0
-        article.setLookCount(0);
+        article.setA_lookCount(0);
+//        article.setLookCount(0);
         //设置文章类型
-        article.setMid(1);
+        article.setA_mid(1);
+//        article.setMid(1);
 
 //        System.out.println("uid====="+id);
         articleService.saveById(article);
@@ -107,21 +111,7 @@ public class ArticleController {
 //
 //    }
 
-    //前端点击后增加观看次数，可自由更换路径
-    @RequestMapping(path = "/look/{id}")
-    @ResponseBody
-    public void look(Model model,@PathVariable Integer id,HttpServletResponse response,HttpServletRequest request) throws IOException {
-        articleService.lookCount(id);
 
-        response.sendRedirect(request.getContextPath()+"/header.html");
-
-//        List<Article> list= articleService.findAll();
-//        String str="name";
-//        model.addAttribute("name",str);
-//        return list;
-
-
-    }
 
     //标题搜索
     @RequestMapping(path="/getListWithJson2",method = RequestMethod.GET)
@@ -169,6 +159,188 @@ public class ArticleController {
 
     }
 
+
+    //旅游列表内容
+    @RequestMapping(path="/TravelJson",method = RequestMethod.GET)
+    public Msg getListTravelJson(Integer pageNo){
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findTravel();
+
+//        List<Article> one = articleService.findLike("河");
+//        for (Article article : articlePage) {
+//            System.out.println(article);
+//        }
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+//        PageInfo pageInfo=new PageInfo(one,5);
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+    //查询旅游内容
+    @RequestMapping(path="/TravelJson2",method = RequestMethod.GET)
+    public Msg getListTravelJson2(Integer pageNo,String text,HttpServletRequest request,HttpServletResponse response){
+
+        System.out.println("页码pageNo=============="+pageNo);
+        System.out.println("文本信息text"+text);
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+
+        //startPage后面紧跟的查询就是分页查询
+//        List<Article> articlePage = articleService.findLike(text);
+        List<Article> articlePage = articleService.TravelLike(text);
+        for (Article article : articlePage) {
+            System.out.println("旅游控制层controller---"+article);
+        }
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+
+
+    //生活列表内容
+    @RequestMapping(path="/LiveJson",method = RequestMethod.GET)
+    public Msg getListLiveJson(Integer pageNo){
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findLive();
+
+//        List<Article> one = articleService.findLike("河");
+//        for (Article article : articlePage) {
+//            System.out.println(article);
+//        }
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+//        PageInfo pageInfo=new PageInfo(one,5);
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+    //查询生活内容
+    @RequestMapping(path="/LiveJson2",method = RequestMethod.GET)
+    public Msg LiveJson2(Integer pageNo,String text,HttpServletRequest request,HttpServletResponse response){
+
+        System.out.println("页码pageNo=============="+pageNo);
+        System.out.println("文本信息text"+text);
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+
+        //startPage后面紧跟的查询就是分页查询
+//        List<Article> articlePage = articleService.findLike(text);
+        List<Article> articlePage = articleService.LiveLike(text);
+        for (Article article : articlePage) {
+            System.out.println("旅游控制层controller---"+article);
+        }
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+
+    //最新列表内容
+    @RequestMapping(path="/aNew",method = RequestMethod.GET)
+    public Msg aNew(Integer pageNo){
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findNew();
+
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+
+    //最早列表内容
+    @RequestMapping(path="/early",method = RequestMethod.GET)
+    public Msg early(Integer pageNo){
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findEarly();
+
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+    //观看人数最多列表内容
+    @RequestMapping(path="/most",method = RequestMethod.GET)
+    public Msg most(Integer pageNo){
+
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findMost();
+
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
+
+    //作者查询
+    @RequestMapping(path="/writer",method = RequestMethod.GET)
+    public Msg writer(Integer pageNo,String text){
+
+        System.out.println("pageNo---"+pageNo);
+        System.out.println("text---"+text);
+        //这是一个分页查询
+        //引入PageHelp分页插件
+        //在查询之前只需要调用，传入页码，以及每页的大小
+        PageHelper.startPage(pageNo,4);//自动添加limit 0,8
+        //startPage后面紧跟的查询就是分页查询
+        List<Article> articlePage = articleService.findWriter(text);
+
+
+        //使用pageInfo包装查询后的结果，只需要将pageInfo交给页面就行了。
+        //封装了详细的分页信息,传入连续显示的页数
+        PageInfo pageInfo=new PageInfo(articlePage,5);
+
+        return Msg.sucess().add("pageInfo",pageInfo);
+    }
 
 
 

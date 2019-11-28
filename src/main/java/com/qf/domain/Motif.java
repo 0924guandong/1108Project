@@ -4,7 +4,9 @@ public class Motif {
 
     private Integer m_id;
     private String m_name;
+
     private Article article;
+    private User user;
 
     @Override
     public String toString() {
@@ -12,16 +14,18 @@ public class Motif {
                 "m_id=" + m_id +
                 ", m_name='" + m_name + '\'' +
                 ", article=" + article +
+                ", user=" + user +
                 '}';
     }
 
     public Motif() {
     }
 
-    public Motif(Integer m_id, String m_name, Article article) {
+    public Motif(Integer m_id, String m_name, Article article, User user) {
         this.m_id = m_id;
         this.m_name = m_name;
         this.article = article;
+        this.user = user;
     }
 
     public Integer getM_id() {
@@ -46,5 +50,13 @@ public class Motif {
 
     public void setArticle(Article article) {
         this.article = article;
+    }
+
+    public User getUser() {
+        return user;
+    }
+
+    public void setUser(User user) {
+        this.user = user;
     }
 }

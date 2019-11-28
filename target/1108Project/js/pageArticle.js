@@ -4,18 +4,22 @@ $(function () {
     //显示第一页
     to_page(1);
     //搜索
-    tolike();
+    to_like();
     //查询篇数
     to_count();
     //查询标签类型
     to_type();
-
-    to_type2();
-
+    //最新时间文章
+    to_new();
+    //最早时间文章
+    to_early();
+    //观看人数最多文章
+    to_Most();
+    //作者查询
+    to_writer();
 
     function to_page(pageNo) {
         $.ajax({
-
             url: "/getListWithJson",
             data: "pageNo=" + pageNo,
             type: "GET",
@@ -30,35 +34,99 @@ $(function () {
         })
     }
 
-    function tolike() {
+
+    function to_like() {
         $("#submit2").click(function () {
             // alert("未解决");
             var pageNo = 1;
             var text = $("#text").val();
             $.ajax({
                 url: "/getListWithJson2",
-                // data:$("#form").serialize()+"&_method=PUT",
                 data: {pageNo: pageNo, text: text},
-                // data:$("#form").serialize(),
                 type: "GET",
-                // dataType:"json",
                 success: function (result) {
-                    // 1.解析并显示学生信息数据
+                    // 1.解析并显示文章表信息数据
                     build_article_table(result);
                     build_page_info(result);
                     build_page_nav(result);
-
-                    // $('#div22').empty();
-                    // var div = $("#div22");
-                    // var article = result.extend.pageInfo.list;
-                    //
-                    // alert()
-
-
                 }
             })
         })
     }
+
+
+    function to_new() {
+        $("#sub1").click(function () {
+          $.ajax({
+              url:"/aNew",
+              data:"pageNo="+1,
+              type:"GET",
+              // dataType:"json",
+              success:function (result) {
+                  // 1.解析并显示文章表信息数据
+                  build_article_table(result);
+                  build_page_info(result);
+                  build_page_nav(result);
+              }
+          })
+        })
+    }
+
+    function to_Most() {
+        $("#sub3").click(function () {
+            $.ajax({
+                url:"/most",
+                data:"pageNo="+1,
+                type:"GET",
+                // dataType:"json",
+                success:function (result) {
+                    build_article_table(result);
+                    build_page_info(result);
+                    build_page_nav(result);
+                }
+            })
+        })
+    }
+
+    function to_early() {
+        $("#sub2").click(function () {
+            $.ajax({
+                url:"/early",
+                data:"pageNo="+1,
+                type:"GET",
+                // dataType:"json",
+                success:function (result) {
+                    build_article_table(result);
+                    build_page_info(result);
+                    build_page_nav(result);
+                }
+            })
+        })
+    }
+
+
+    function to_writer() {
+        $("#header").click(function () {
+            var text2 = $("#text2").val();
+            alert("弹出")
+            $.ajax({
+                url:"/writer",
+                data:{pageNo:1,text:text2},
+                type:"GET",
+                dataType:"json",
+                success:function (result) {
+                    build_article_table(result);
+                    build_page_info(result);
+                    build_page_nav(result);
+                }
+
+            })
+        })
+    }
+
+
+
+
 
     function to_count() {
         $.ajax({
@@ -86,24 +154,20 @@ $(function () {
             dataType:"json",
             success:function (data) {
                 var ul = $("#ul");
-                for (var i in data) {
+                // for (var i in data) {
                     ul.after(
-                        "<span class=" + "list-inline-item" + "id=" + "ul" + "><a href=" + "# " + "class=" + "tag" + ">" + data[i].m_name + "</a></span>"
+                        // "<span class=" + "list-inline-item" + "id=" + "ul" + "><a href=" + "/travel.html " + "class=" + "tag" + ">" + data[i].m_name + "</a></span>"
+                        "<span class=" + "list-inline-item" + "id=" + "ul" + "><a href=" + "/travel.html " + "class=" + "tag" + ">" + data[0].m_name + "</a></span>"+
+                        "<span class=" + "list-inline-item" + "id=" + "ul" + "><a href=" + "/live.html " + "class=" + "tag" + ">" + data[1].m_name + "</a></span>"
                         // "<span class=" + "list-inline-item" + "id=" + "ul" + "><button type=submit"+"onclick"+"=sb2(data[i].m_name)"+ "class=" + "tag" + ">" + data[i].m_name + "</button></span>"
 
                     )
-                }
+                // }
 
             }
         })
     }
 
-    // function to_type2() {
-    //     $.ajax({
-    //         url:"/"
-    //
-    //     })
-    // }
 
     function build_article_table(result) {
         $('#div22').empty();
@@ -111,7 +175,7 @@ $(function () {
         var article = result.extend.pageInfo.list;
         // var div = $("#div22");
         $.each(article, function (index, item) {
-            div.append("<br><div class=" + "post col-xl-8 " + ">" +
+            div.append("<br><div class=" + "post col-xl-10 " + ">" +
                 // "<div "+"class"+"="+"post-thumbnail"+"><a href="+"#"+"><img src="+"WEB-INF\\uploadFiles2\\"+list[i].picture+" alt="+"..." +"class="+"img-fluid"+"></a></div>"+
                 "<div " + "class" + "=" + "post-thumbnail" + "><a href=" + "#" + "></a></div>" +
                 "<div class=" + "post-details>" +
@@ -121,20 +185,27 @@ $(function () {
                 //点击跳转
                 // "<div class=" + "category" + "><a href=" + "/look/" + item.id + ">" + item.id + "</a></div>"
                 // +
-                "</div><a href=" + "/look/" + item.id + ">" +
+                "</div><a href=" + "/lzj_post.html?a_id="+ item.a_id +">" +
+                // "</div><a href=" + "/lzj_post.html?a_id="+ item.a_id +">" +
+                // "</div><a href=" + "/lzj_post.html/" + item.a_id + ">" +
                 //显示标题
-                "<h3 class=" + "h4" + ">" + item.headline.substring(0, 30) + "..." + "</h3></a>" +
-                // 显示内容
-                "<p class=" + "text-muted" + ">" + item.content.substring(0, 100) + "..." + "</p>" +
-                "<footer class=" + "post-footer d-flex align-items-center" + ">" +
+                "<h3 class=" + "h4" + ">" + item.a_headline  + "</h3></a>" +
+
+                // "<footer class=" + "post-footer d-flex align-items-center" + ">" +
                 // //显示id
                 // "<div class="+"title"+"id=tt"+"><span>"+item.user.username+"</span></div></a>"+
-                "<div class=" + "title" + "><span>" + "作者：" + item.user.username + "</span></div></a>" +
+                "<div class=" + "title" + "><span>" + "作者：" + item.user.u_username + "</span></div></a>" +
                 //发帖时间
-                "<div class=" + "date" + "><i class=" + "icon-clock" + "></i>" + item.date + "</div>" +
+                "<div class=" + "date" + "><i class=" + "icon-clock" + "></i>" + item.a_date + "</div>" +
                 //观看次数
-                "<div class=" + "views meta-last" + "><i class=" + "icon-eye" + "></i>" + "观看次数" + item.lookCount + "</div>" +
-                "</footer>" +
+                "<div class=" + "views meta-last" + "><i class=" + "icon-eye" + "></i>" + "观看次数" + item.a_lookCount + "</div>" +
+                // "</footer>" +
+
+                // "<h3 class=" + "h4" + ">" + item.a_headline.substring(0, 30)  + "</h3></a>" +
+                // 显示内容
+                "<p class=" + "text-muted" + ">" + item.a_content + "</p>" +
+                // "<p class=" + "text-muted" + ">" + item.a_content.substring(0, 100) + "</p>" +
+
                 "</div>"
             )
             // }

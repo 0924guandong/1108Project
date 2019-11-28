@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <!--meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <title>Title</title>
+
+    <!--booststrap-->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+    <!--stylesheets-->
+    <link href="css/travelstyle.css" rel='stylesheet' type='text/css' media="all">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/liveArticle.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/fontastic.css">
+
+    <link rel="stylesheet" href="css/style2.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+
+
+</head>
+<body>
+
+<header class="header">
+    <!-- Main Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="search-area">
+            <div class="search-area-inner d-flex align-items-center justify-content-center">
+                <div class="close-btn"><i class="icon-close"></i></div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="search" name="search" id="search" placeholder="What are you looking for?">
+                                <button type="submit" class="submit"><i class="icon-search-1"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Navbar Brand -->
+            <div class="navbar-header d-flex align-items-center justify-content-between">
+                <!-- Navbar Brand --><a href="header.html" class="navbar-brand">风花雪月论坛</a>
+                <!-- Toggle Button-->
+                <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span></span><span></span><span></span></button>
+            </div>
+            <!-- Navbar Menu -->
+            <div id="navbarcollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item"><a href="header.html" class="nav-link active ">主页</a>
+                    </li>
+                    <li class="nav-item"><a href="header.html" class="nav-link ">博客</a>
+                    </li>
+                    <li class="nav-item"><a href="travel.html" class="nav-link ">旅游</a>
+                    </li>
+                    <li class="nav-item"><a href="live.html" class="nav-link ">生活</a>
+                    </li>
+                </ul>
+                <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-search-1"></i></a></div>
+                <!--                <ul class="langs navbar-text"><a href="#" class="active">EN</a><span>           </span><a href="#">ES</a></ul>-->
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- //banner -->
+<div class="main-content" id="home">
+    <div class="overlay">
+        <!-- //header -->
+        <div class="container">
+            <!-- /banner -->
+            <div class="banner-info text-left">
+                <h3>生活篇</h3>
+                <p class="my-3">生活，一半是回忆，一半是继续</p>
+                <div class="read-more-button">
+                    <a href="header.html" class="read-more scroll btn">首页</a> </div>
+            </div>
+
+        </div>
+        <!-- //banner -->
+    </div>
+</div>
+
+<!-- //banner -->
+<div class="container">
+    <div class="row" id="dd" >
+        <!-- Latest Posts -->
+        <main class="posts-listing col-lg-8">
+            <div class="container">
+                <div class="row" id="delete">
+                    <!-- post -->
+                    <div class="post col-xl-10 " id="div22" style="position: relative;left: 100px">
+                        <!--                        <div class="post-thumbnail"><a href="#"><img src="img/1.jpg" alt="..." class="img-fluid"></a></div>-->
+                        <div class="post-details">
+                            <div class="post-meta d-flex justify-content-between">
+                                <!--                                <div class="date meta-last">20 May | 2016</div>-->
+                                <div class="category"><a href="#"></a></div>
+                            </div><a href="post.html">
+                            <h3 class="h4"></h3></a>
+                            <p class="text-muted"></p>
+                            <footer class="post-footer d-flex align-items-center">
+                                <!--                                <a href="#" class="author d-flex align-items-center flex-wrap">-->
+                                <!--                                <div class="avatar"><img src="img/avatar-3.jpg" alt="..." class="img-fluid"></div>-->
+                                <div class="title"><span>xxx</span></div></a>
+                                <!--                                <div class="date"><i class="icon-clock"></i> 20 May | 2016</div2>-->
+                                <div class="date"><i class="icon-clock"></i> </div>
+                                <!--                                <div class="date meta-last">20 May | 2016</div>-->
+                                <div class="views meta-last"><i class="icon-eye"></i>  观看次数12</div>
+                            </footer>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <!--                    <&#45;&#45;分页文字信息 &ndash;&gt;-->
+                    <div id="page_info_area">
+                        当前第页，总共页，总共条记录
+                    </div>
+                    <!--分页导航条信息 -->
+                    <div id="page_nav_area">
+
+                    </div>
+                </div>
+
+            </div>
+        </main>
+        <aside class="col-lg-4">
+            <!-- Widget [Search Bar Widget]-->
+            <div class="widget search" id="div66">
+                <header>
+                    <h3 class="h6">内容关键字</h3>
+                </header>
+                <form action="#" class="search-form" id="form">
+                    <div class="form-group">
+                        <input type="text" id="text" placeholder="请输入">
+                        <button id="submit3" class="submit" /><i class="icon-search" ></i></input>
+                    </div>
+                </form>
+            </div>
+
+        </aside>
+    </div>
+</div>
+
+
+<!--<div class="container">-->
+<!--    <div class="row" id="dd" >-->
+<!--        &lt;!&ndash; Latest Posts &ndash;&gt;-->
+<!--        <main class="posts-listing col-lg-8">-->
+<!--            <div class="container">-->
+<!--                <div class="row" id="delete">-->
+<!--                    &lt;!&ndash; post &ndash;&gt;-->
+<!--                    <div class="post col-xl-8 " id="div22" style="position: relative;left: 100px">-->
+<!--                        &lt;!&ndash;                        <div class="post-thumbnail"><a href="#"><img src="img/1.jpg" alt="..." class="img-fluid"></a></div>&ndash;&gt;-->
+<!--                        <div class="post-details">-->
+<!--                            <div class="post-meta d-flex justify-content-between">-->
+<!--                                &lt;!&ndash;                                <div class="date meta-last">20 May | 2016</div>&ndash;&gt;-->
+<!--                                <div class="category"><a href="#"></a></div>-->
+<!--                            </div><a href="post.html">-->
+<!--                            <h3 class="h4">Alberto Savoia Can Teach You About Interior</h3></a>-->
+<!--                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>-->
+<!--                            <footer class="post-footer d-flex align-items-center">-->
+<!--                                &lt;!&ndash;                                <a href="#" class="author d-flex align-items-center flex-wrap">&ndash;&gt;-->
+<!--                                &lt;!&ndash;                                <div class="avatar"><img src="img/avatar-3.jpg" alt="..." class="img-fluid"></div>&ndash;&gt;-->
+<!--                                <div class="title"><span>xxx</span></div></a>-->
+<!--                                &lt;!&ndash;                                <div class="date"><i class="icon-clock"></i> 20 May | 2016</div2>&ndash;&gt;-->
+<!--                                <div class="date"><i class="icon-clock"></i> </div>-->
+<!--                                &lt;!&ndash;                                <div class="date meta-last">20 May | 2016</div>&ndash;&gt;-->
+<!--                                <div class="views meta-last"><i class="icon-eye"></i>  观看次数12</div>-->
+<!--                            </footer>-->
+<!--                        </div>-->
+<!--                    </div>-->
+
+<!--                </div>-->
+
+<!--                <div class="row">-->
+<!--                    &lt;!&ndash;                    <&#45;&#45;分页文字信息 &ndash;&gt;&ndash;&gt;-->
+<!--                    <div id="page_info_area">-->
+<!--                        当前第页，总共页，总共条记录-->
+<!--                    </div>-->
+<!--                    &lt;!&ndash;分页导航条信息 &ndash;&gt;-->
+<!--                    <div id="page_nav_area">-->
+
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--            </div>-->
+<!--        </main>-->
+<!--        <aside class="col-lg-4">-->
+<!--            &lt;!&ndash; Widget [Search Bar Widget]&ndash;&gt;-->
+<!--            <div class="widget search" id="div66">-->
+<!--                <header>-->
+<!--                    <h3 class="h6">内容关键字</h3>-->
+<!--                </header>-->
+<!--                <form action="#" class="search-form" id="form">-->
+<!--                    <div class="form-group">-->
+<!--                        <input type="text" id="text" placeholder="What are you looking for?">-->
+<!--                        <button id="submit3" class="submit" /><i class="icon-search" ></i></input>-->
+<!--                    </div>-->
+<!--                </form>-->
+<!--            </div>-->
+
+<!--        </aside>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+</body>
+</html>

@@ -6,15 +6,28 @@
     <resultMap id="motifMap" type="motif">
         <id property="m_id" column="m_id"></id>
         <result property="m_name" column="m_name"></result>
-        <collection property="article" ofType="Article">
-            <id property="id" column="a_id"></id>
-            <result property="uid" column="a_uid"></result>
-            <result property="mid" column="a_mid"></result>
-            <result property="headline" column="a_headline"></result>
-            <result property="lookCount" column="a_lookCount"></result>
-            <result property="content" column="a_content"></result>
-            <result property="date" column="a_date"></result>
-            <result property="flag" column="a_flag"></result>
+        <collection property="article"  ofType="Article">
+            <id property="a_id" column="a_id"></id>
+            <result property="a_uid" column="a_uid"></result>
+            <result property="a_mid" column="a_mid"></result>
+            <result property="a_headline" column="a_headline"></result>
+            <result property="a_lookCount" column="a_lookCount"></result>
+            <result property="a_content" column="a_content"></result>
+            <result property="a_date" column="a_date"></result>
+            <result property="a_flag" column="a_flag"></result>
+        </collection>
+
+        <collection property="user"  ofType="user">
+            <id property="u_id" column="u_id"></id>
+            <result property="u_username" column="u_username"></result>
+            <result property="u_password" column="u_password"></result>
+            <result property="u_name" column="u_name"></result>
+            <result property="u_sex" column="u_sex"></result>
+            <result property="u_email" column="u_email"></result>
+            <result property="u_flag" column="u_flag"></result>
+            <result property="u_isAdmin" column="u_isAdmin"></result>
+            <result property="u_score" column="u_score"></result>
+            <result property="u_isBanned" column="u_isBanned"></result>
         </collection>
     </resultMap>
 
@@ -22,7 +35,18 @@
         select DISTINCT m_name from motif
     </select>
 
-    <select id="">
-
+    <select id="getMotif" parameterType="INT" resultMap="motifMap">
+        select
+        m.*,a.*,u.*
+        from `motif` m
+        INNER JOIN `article` a
+        on a.a_mid=m.m_id
+        LEFT JOIN `user` u
+        on a.a_uid=u.u_id
+        where
+        a.a_flag=0 and  u.u_isBanned=0 and  a.a_id= #{aid}
     </select>
+
+
+
 </mapper>

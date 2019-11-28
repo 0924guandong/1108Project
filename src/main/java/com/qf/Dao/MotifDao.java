@@ -1,6 +1,7 @@
 package com.qf.Dao;
 
 import com.qf.domain.Motif;
+import com.qf.domain.User;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;
@@ -10,6 +11,12 @@ public interface MotifDao {
 
     List<Motif> findAll();
 
-//    List<>
+    /**
+     * 根据m_id获取分类
+     * @param aid
+     * @return
+     */
+    List<Motif> getMotif(Integer aid);
+
 
 }

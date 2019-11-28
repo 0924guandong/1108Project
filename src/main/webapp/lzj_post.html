@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>文章页</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="lzj-js/lzjArticle.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="css/fontastic.css">
+
+
+</head>
+<body>
+
+<!-- <a href="header.html?testId=4">fdsjfsjdalfjldskjf</a>-->
+<header class="header">
+    <!-- Main Navbar-->
+    <nav class="navbar navbar-expand-lg">
+        <div class="search-area">
+            <div class="search-area-inner d-flex align-items-center justify-content-center">
+                <div class="close-btn"><i class="icon-close"></i></div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-8">
+                        <form action="#">
+                            <div class="form-group">
+                                <input type="search" name="search" id="search" placeholder="What are you looking for?">
+                                <button type="submit" class="submit"><i class="icon-search-1"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <!-- Navbar Brand -->
+            <div class="navbar-header d-flex align-items-center justify-content-between">
+                <!-- Navbar Brand --><a href="header.html" class="navbar-brand">风花雪月论坛</a>
+                <!-- Toggle Button-->
+                <button type="button" data-toggle="collapse" data-target="#navbarcollapse"
+                        aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation"
+                        class="navbar-toggler"><span></span><span></span><span></span></button>
+            </div>
+            <!-- Navbar Menu -->
+            <div id="navbarcollapse" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item"><a href="header.html" class="nav-link active ">主页</a>
+                    </li>
+                    <li class="nav-item"><a href="header.html" class="nav-link ">博客</a>
+                    </li>
+                    <li class="nav-item"><a href="travel.html" class="nav-link ">旅游</a>
+                    </li>
+                    <li class="nav-item"><a href="live.html" class="nav-link ">生活</a>
+                    </li>
+                </ul>
+                <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-search-1"></i></a></div>
+                <!--<ul class="langs navbar-text"><a href="#" class="active">EN</a><span>           </span><a href="#">ES</a></ul>-->
+            </div>
+        </div>
+    </nav>
+</header>
+<div class="container">
+    <div class="row">
+        <!-- Latest Posts -->
+        <main class="post blog-post col-lg-8">
+            <div class="container">
+                <div class="post-single">
+<!--                    <div class="post-thumbnail"><img src="img/blog-post-3.jpeg" alt="..." class="img-fluid"></div>-->
+                    <div class="post-details">
+                        <div class="post-meta d-flex justify-content-between">
+<!--                            <div class="category"><a href="#">#xxx</a><a href="#">#yyy</a></div>-->
+                        </div>
+                        <!--显示标题作者等信息-->
+                        <div id="maintitle"></div>
+
+                        <div class="post-footer d-flex align-items-center flex-column flex-sm-row"><a href="#"
+                                                                                                      class="author d-flex align-items-center flex-wrap">
+
+                            <div class="avatar" id="authorHead"></div>
+                            <div class="title" id="authorName"></div>
+                        </a>
+                            <div class="email" id="authorEmail"></div>
+
+
+                            <div class="d-flex align-items-center flex-wrap" id="articleMsg">
+
+                            </div>
+                        </div>
+                        <!--显示正文-->
+                        <div class="post-body" id="mainbody">
+
+                        </div>
+                        <!--分类标签-->
+                        <div class="post-tags" id="motif2">
+                            <!--<a href="#" class="tag">#Business</a>-->
+                        </div>
+
+
+                        <!--评论列表-->
+                        <div class="post-comments">
+<!--                            <header>-->
+<!--                                <h3 class="h6">评论列表<span class="no-of-comments" id="commentNum"></span></h3>-->
+<!--                            </header>-->
+
+                            <!--评论-->
+                            <div class="comment" id="showComment">
+
+                            </div>
+
+
+                        </div>
+                        <!--发表评论-->
+<!--                        <div class="add-comment">-->
+<!--                            <header>-->
+<!--                                <h3 class="h6">评论</h3>-->
+<!--                            </header>-->
+
+<!--                            <form action="#" class="commenting-form">-->
+<!--                                <div class="row" id="userForm">-->
+
+<!--                                    <div class="form-group col-md-12">-->
+<!--                                        <textarea name="usercomment" id="usercomment" placeholder="说说你的看法..."-->
+<!--                                                  class="form-control"></textarea>-->
+<!--                                    </div>-->
+<!--                                    <div class="form-group col-md-12">-->
+<!--                                        <button type="submit" class="btn btn-secondary">提交</button>-->
+<!--                                    </div>-->
+<!--                                </div>-->
+<!--                            </form>-->
+
+<!--                        </div>-->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <aside class="col-lg-4">
+
+            <!-- Widget [Tags Cloud Widget]-->
+            <div class="widget tags">
+                <header>
+                    <h3 class="h6">分类</h3>
+                </header>
+
+                <ul class="list-inline">
+                    <div id="motif">
+                        <!-- <li class="list-inline-item"><a href="#" class="tag">#Business</a></li>-->
+                    </div>
+                </ul>
+
+
+            </div>
+            <blockquote class="blockquote">
+                <p>记得多喝热水</p>
+                <footer class="blockquote-footer">你男朋友
+                    <cite title="Source Title"></cite>
+                </footer>
+            </blockquote>
+        </aside>
+    </div>
+</div>
+<!-- Page Footer-->
+<footer class="main-footer">
+    <div class="copyrights">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2019. 对魔导学园第三小分队JAVA分部1907班.</p>
+                </div>
+                <div class="col-md-6 text-right">
+                    More Templates <a href="http://www.bilibili.com/" target="_blank" title="魔导学园">对魔导学园第三小分队</a> -
+                    Collect from <a href="http://www.bilibili.com/" title="哔哩哔哩" target="_blank">川建国书记</a>
+
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>

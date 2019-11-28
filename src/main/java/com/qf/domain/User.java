@@ -12,126 +12,126 @@ public class User {
 //  `u_score` int(255) NOT NULL,
 //  `u_isBanned` int(1) NOT NULL DEFAULT '0',
 
-    private Integer id;
-    private String username;
-    private String password;
-    private String name;
-    private String sex;
-    private String email;
-    private Integer flag;
-    private Integer isAdmin;
-    private Integer score;
-    private Integer isBanned;
+    private Integer u_id;
+    private String u_username;
+    private String u_password;
+    private String u_name;
+    private String u_sex;
+    private String u_email;
+    private Integer u_flag;
+    private Integer u_isAdmin;
+    private Integer u_score;
+    private Integer u_isBanned;
 
     @Override
     public String toString() {
         return "User{" +
-                "id=" + id +
-                ", username='" + username + '\'' +
-                ", password='" + password + '\'' +
-                ", name='" + name + '\'' +
-                ", sex='" + sex + '\'' +
-                ", email='" + email + '\'' +
-                ", flag=" + flag +
-                ", isAdmin=" + isAdmin +
-                ", score=" + score +
-                ", isBanned=" + isBanned +
+                "u_id=" + u_id +
+                ", u_username='" + u_username + '\'' +
+                ", u_password='" + u_password + '\'' +
+                ", u_name='" + u_name + '\'' +
+                ", u_sex='" + u_sex + '\'' +
+                ", u_email='" + u_email + '\'' +
+                ", u_flag=" + u_flag +
+                ", u_isAdmin=" + u_isAdmin +
+                ", u_score=" + u_score +
+                ", u_isBanned=" + u_isBanned +
                 '}';
     }
 
     public User() {
     }
 
-    public User(Integer id, String username, String password, String name, String sex, String email, Integer flag, Integer isAdmin, Integer score, Integer isBanned) {
-        this.id = id;
-        this.username = username;
-        this.password = password;
-        this.name = name;
-        this.sex = sex;
-        this.email = email;
-        this.flag = flag;
-        this.isAdmin = isAdmin;
-        this.score = score;
-        this.isBanned = isBanned;
+    public User(Integer u_id, String u_username, String u_password, String u_name, String u_sex, String u_email, Integer u_flag, Integer u_isAdmin, Integer u_score, Integer u_isBanned) {
+        this.u_id = u_id;
+        this.u_username = u_username;
+        this.u_password = u_password;
+        this.u_name = u_name;
+        this.u_sex = u_sex;
+        this.u_email = u_email;
+        this.u_flag = u_flag;
+        this.u_isAdmin = u_isAdmin;
+        this.u_score = u_score;
+        this.u_isBanned = u_isBanned;
     }
 
-    public Integer getId() {
-        return id;
+    public Integer getU_id() {
+        return u_id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setU_id(Integer u_id) {
+        this.u_id = u_id;
     }
 
-    public String getUsername() {
-        return username;
+    public String getU_username() {
+        return u_username;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setU_username(String u_username) {
+        this.u_username = u_username;
     }
 
-    public String getPassword() {
-        return password;
+    public String getU_password() {
+        return u_password;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
+    public void setU_password(String u_password) {
+        this.u_password = u_password;
     }
 
-    public String getName() {
-        return name;
+    public String getU_name() {
+        return u_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setU_name(String u_name) {
+        this.u_name = u_name;
     }
 
-    public String getSex() {
-        return sex;
+    public String getU_sex() {
+        return u_sex;
     }
 
-    public void setSex(String sex) {
-        this.sex = sex;
+    public void setU_sex(String u_sex) {
+        this.u_sex = u_sex;
     }
 
-    public String getEmail() {
-        return email;
+    public String getU_email() {
+        return u_email;
     }
 
-    public void setEmail(String email) {
-        this.email = email;
+    public void setU_email(String u_email) {
+        this.u_email = u_email;
     }
 
-    public Integer getFlag() {
-        return flag;
+    public Integer getU_flag() {
+        return u_flag;
     }
 
-    public void setFlag(Integer flag) {
-        this.flag = flag;
+    public void setU_flag(Integer u_flag) {
+        this.u_flag = u_flag;
     }
 
-    public Integer getIsAdmin() {
-        return isAdmin;
+    public Integer getU_isAdmin() {
+        return u_isAdmin;
     }
 
-    public void setIsAdmin(Integer isAdmin) {
-        this.isAdmin = isAdmin;
+    public void setU_isAdmin(Integer u_isAdmin) {
+        this.u_isAdmin = u_isAdmin;
     }
 
-    public Integer getScore() {
-        return score;
+    public Integer getU_score() {
+        return u_score;
     }
 
-    public void setScore(Integer score) {
-        this.score = score;
+    public void setU_score(Integer u_score) {
+        this.u_score = u_score;
     }
 
-    public Integer getIsBanned() {
-        return isBanned;
+    public Integer getU_isBanned() {
+        return u_isBanned;
     }
 
-    public void setIsBanned(Integer isBanned) {
-        this.isBanned = isBanned;
+    public void setU_isBanned(Integer u_isBanned) {
+        this.u_isBanned = u_isBanned;
     }
 }

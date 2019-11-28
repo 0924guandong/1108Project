@@ -6,15 +6,90 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5364743e-5de9-415b-ac08-49c27053ad8d" name="Default Changelist" comment="Initial commit">
+    <list default="true" id="5364743e-5de9-415b-ac08-49c27053ad8d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/style2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/css/travelstyle.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/avatar-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/b1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/banner-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/blog-post-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/img/n2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/getUrlParam.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/liveArticle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/js/travelArticle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/live.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lzj-js/lzjArticle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lzj_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1108Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/Dao/MotifDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/Dao/MotifDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/domain/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Article.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/domain/Motif.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/Motif.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/domain/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ArticleImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ArticleImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MotifDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MotifDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/img/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/insert.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/js/pageArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/js/pageArticle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/Mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/Dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/Dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/Dao/MotifDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/Dao/MotifDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/controller/MotifController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/controller/MotifController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/Motif.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/Motif.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/Impl/ArticleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/Impl/ArticleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/Impl/MotifImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/Impl/MotifImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/MotifService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/com/qf/service/MotifService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/mapper/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/mapper/MotifDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/WEB-INF/classes/mapper/MotifDao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/1108Project/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/img/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/img/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/img/3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/img/timg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/1108Project/insert.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/1108Project/js/pageArticle.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/1108Project/js/pageArticle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/Dao/ArticleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/Dao/ArticleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/Dao/MotifDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/Dao/MotifDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/controller/ArticleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/controller/MotifController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/controller/MotifController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/domain/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Article.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/domain/Motif.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/Motif.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/domain/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/service/ArticleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/service/Impl/ArticleImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/service/Impl/ArticleImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/service/Impl/MotifImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/service/Impl/MotifImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/qf/service/MotifService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/qf/service/MotifService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ArticleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ArticleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/MotifDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/MotifDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/1127project/target/" />
+    <ignored path="$PROJECT_DIR$/1127project2/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,114 +99,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="1108Project" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/header.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-20">
-              <caret line="168" column="74" lean-forward="true" selection-start-line="168" selection-start-column="74" selection-end-line="168" selection-end-column="74" />
-              <folding>
-                <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-                <element signature="n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#div#1;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pageArticle.js">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/travel.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/SpringArticle.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-498">
-              <caret line="36" column="64" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="64" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MotifDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="28" selection-start-line="28" selection-end-line="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="460">
+              <caret line="284" column="27" lean-forward="true" selection-start-line="284" selection-start-column="27" selection-end-line="284" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -143,11 +120,11 @@
       <list>
         <option value="FxmlFile" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="HTML File" />
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="Interface" />
         <option value="Class" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -155,10 +132,21 @@
     <findStrings>
       <find>pagination</find>
       <find>河</find>
-      <find>div22</find>
       <find>commons</find>
       <find>tolike</find>
       <find>main.posts-listing</find>
+      <find>标签</find>
+      <find>click</find>
+      <find>类型</find>
+      <find>mainbody</find>
+      <find>xx</find>
+      <find>分类</find>
+      <find>post-tags</find>
+      <find>motif2</find>
+      <find>icon-search-1</find>
+      <find>div22</find>
+      <find>img/blog-post-3.jpeg</find>
+      <find>authorEmail</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -167,44 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbcConfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/insert.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/list.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/header.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/style.default.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/test.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/fontastic.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/SpringArticle.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Msg.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/Article.js" />
-        <option value="$PROJECT_DIR$/src/main/resources/SpringMvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/insert.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/style2.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/jq.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/lzjArticle.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/lzj-js.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/lzjMotifController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IMotifServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IArticleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/dao/IArticleDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/dao/IMotifDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/dao/IUserDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/IArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/IMotifDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/IUserDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/IArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/IMotifService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/IUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IUserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Comment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/lzj_ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/dao/ICommentDao.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Article.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/ArticleService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ArticleImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Count.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/style.default.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/motif.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/Motif.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ICommentDao.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/ICommentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ICommentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/ArticleService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ArticleImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/ICommentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/domain/Motif.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/qf/Dao/MotifDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MotifDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/header.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/css/fontastic.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/pageArticle.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/header.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/lzj_post.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/lzj-js/lzjArticle.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/travelArticle.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/js/liveArticle.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/travel.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/live.html" />
+        <option value="$PROJECT_DIR$/1127project/pom.xml" />
+        <option value="$PROJECT_DIR$/1127project2/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -219,7 +220,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="D:/Maven/apache-maven-3.3.9-bin/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.3.9-bin\apache-maven-3.3.9\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -240,11 +240,6 @@
           <item name="1108Project Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="1108Project Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
       </expand>
       <select />
     </treeState>
@@ -253,13 +248,15 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="116" />
-    <option name="y" value="7" />
-    <option name="width" value="917" />
-    <option name="height" value="876" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="514" />
+    <option name="y" value="4" />
+    <option name="width" value="974" />
+    <option name="height" value="920" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -269,82 +266,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="qf" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery-3.3.1.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="1108Project" type="b2602c69:ProjectViewProjectNode" />
-              <item name="1108Project" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="1108Project - 5" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1108Project - 5" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -360,7 +283,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1108Project - 副本" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -371,25 +294,25 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GDTest\1108Project\src\main\webapp\WEB-INF" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp\css" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp\img" />
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\GDTest\1108Project\src\main\webapp\js" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp" />
+      <recent name="D:\GDTest\1108Project\src\main\java\com\qf\service\Impl" />
+      <recent name="D:\GDTest\1108Project\src\main\java\com\qf\service" />
+      <recent name="D:\GDTest\1108Project\src\main\java\com\qf\controller" />
+      <recent name="D:\GDTest\1108Project\src\main\java\com\qf\Dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.qf.domain" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\GDTest\1108Project\src\main\webapp\img" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp\js" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp\bootstrap" />
-      <recent name="D:\GDTest\1108Project\src\main\webapp" />
-      <recent name="D:\GDTest\1108Project\src\main\resources" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GDTest\1108Project-4\src\main\resources\mapper" />
+      <recent name="D:\GDTest\1108Project\src\main\java\com\qf\service\Impl" />
+      <recent name="D:\GDTest\1108Project\src\main\webapp\lzj-js" />
+      <recent name="D:\GDTest\1108Project\src\main\webapp\WEB-INF" />
+      <recent name="D:\GDTest\1108Project\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -407,6 +330,7 @@
   <component name="RunManager">
     <configuration name="Tomcat 8.5.311" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.311" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
       <deployment>
         <artifact name="1108Project:war exploded">
           <settings>
@@ -496,12 +420,35 @@
       <workItem from="1573434325109" duration="27023000" />
       <workItem from="1573471711501" duration="11945000" />
       <workItem from="1573520092147" duration="9921000" />
-      <workItem from="1573538851664" duration="3501000" />
+      <workItem from="1573538851664" duration="3636000" />
+      <workItem from="1573543814765" duration="18139000" />
+      <workItem from="1573572526095" duration="445000" />
+      <workItem from="1573606673060" duration="12275000" />
+      <workItem from="1573630478065" duration="7142000" />
+      <workItem from="1573638980539" duration="3214000" />
+      <workItem from="1573645845135" duration="145000" />
+      <workItem from="1573646121349" duration="3190000" />
+      <workItem from="1573649430209" duration="1133000" />
+      <workItem from="1573650630347" duration="8315000" />
+      <workItem from="1573660355304" duration="288000" />
+      <workItem from="1573692761999" duration="5602000" />
+      <workItem from="1573698581874" duration="5580000" />
+      <workItem from="1573707002609" duration="9225000" />
+      <workItem from="1573717511866" duration="5261000" />
+      <workItem from="1574851064312" duration="5691000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1573543663766</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1573543663766</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149416000" />
+    <option name="totallyTimeSpent" value="235196000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -513,32 +460,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="514" y="4" width="974" height="920" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.17030849" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.4993046" visible="true" weight="0.34901533" />
+      <window_info id="Structure" order="6" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
+      <window_info id="Web" order="7" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="2" weight="0.32916668" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.55771905" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" visible="true" weight="0.07732634" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50064266" side_tool="true" weight="0.36717662" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32823366" />
       <window_info anchor="bottom" id="Thumbnails" order="7" visible="true" weight="0.3236111" />
-      <window_info anchor="bottom" id="Run" order="8" visible="true" weight="0.19332406" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.5013889" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4993573" weight="0.38108483" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.5006954" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.16968012" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.08194444" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.16666667" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.1752434" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32916668" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32916668" />
       <window_info anchor="right" id="Theme Preview" order="0" />
@@ -555,26 +501,26 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info id="Favorites" order="3" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.16645244" />
-      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info id="Web" order="7" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.4993046" visible="true" weight="0.20244215" />
+      <window_info id="Structure" order="6" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
+      <window_info id="Web" order="7" sideWeight="0.5006954" side_tool="true" weight="0.218509" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="1" weight="0.55771905" />
       <window_info anchor="bottom" id="Terminal" order="2" weight="0.32916668" />
       <window_info anchor="bottom" id="Database Changes" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.50064266" side_tool="true" weight="0.36717662" />
       <window_info anchor="bottom" id="Message" order="5" />
-      <window_info anchor="bottom" id="Find" order="6" weight="0.32916668" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32823366" />
       <window_info anchor="bottom" id="Thumbnails" order="7" visible="true" weight="0.3236111" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.20416667" />
-      <window_info anchor="bottom" id="Debug" order="9" weight="0.5013889" />
+      <window_info anchor="bottom" id="Run" order="8" sideWeight="0.4993573" weight="0.08066759" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.5006954" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="bottom" id="TODO" order="12" weight="0.16968012" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.08194444" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.14722222" />
+      <window_info anchor="bottom" id="Messages" order="14" weight="0.1752434" />
       <window_info anchor="bottom" id="Spring" order="15" weight="0.32916668" />
       <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.32916668" />
       <window_info anchor="right" id="Theme Preview" order="0" />
@@ -600,134 +546,87 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/JAVA1/src.zip!/java/lang/reflect/Method.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SpringMvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        <state relative-caret-position="660">
+          <caret line="33" column="27" selection-start-line="33" selection-start-column="27" selection-end-line="33" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IMotifServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IArticleServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/dao/IArticleDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/dao/IMotifDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/dao/IUserDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/IArticleDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/IMotifDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/IUserDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/IArticleService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/IUserService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/IMotifService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/IUserServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Msg.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="14" column="37" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/getUrlParam.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-60" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ICommentDao.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/lzj_ArticleController.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Article.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-20">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="31" />
           <folding>
-            <element signature="e#6052#6053#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#708#709#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#783#784#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="-431">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbcConfig.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Comment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="1" column="47" selection-start-line="1" selection-start-column="47" selection-end-line="1" selection-end-column="47" />
+        <state relative-caret-position="240">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/insert.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/header.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/test.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/bootstrap/fontastic.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="32" column="10" selection-start-line="8" selection-start-column="7" selection-end-line="32" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/uploadFiles2/5805e3d0cd5c479499cfc7c374ae7baa_2.jpg" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/Article.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="36" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/insert.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="45" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Msg.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/fontastic.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/JAVA1/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5-sources.jar!/org/apache/ibatis/builder/xml/mybatis-3-mapper.dtd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SpringMvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/fdjfdsj.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/ArticleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="21" />
+        <state relative-caret-position="229">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -736,112 +635,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ArticleImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="65" column="13" selection-start-line="65" selection-start-column="13" selection-end-line="65" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="16" selection-end-line="40" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#findAll#0;class#ArticleImpl#0" />
             <element signature="method#saveById#0;class#ArticleImpl#0" />
-            <element signature="method#lookCount#0;class#ArticleImpl#0" />
             <element signature="method#findLike#0;class#ArticleImpl#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Count.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/ICommentDao.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/ICommentService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/ICommentServiceImpl.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Motif.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-560">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        <state relative-caret-position="94">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
           <folding>
-            <element signature="e#36132#36366#2" expanded="true" />
-            <element signature="e#37269#37422#1" expanded="true" />
-            <element signature="e#37463#37697#1" expanded="true" />
-            <element signature="e#41102#41378#2" expanded="true" />
-            <element signature="e#42309#42462#1" expanded="true" />
-            <element signature="e#42503#42779#1" expanded="true" />
-            <element signature="e#77854#78041#2" expanded="true" />
-            <element signature="e#78300#78436#2" expanded="true" />
-            <element signature="e#78891#79024#2" expanded="true" />
-            <element signature="e#80756#80909#1" expanded="true" />
-            <element signature="e#96255#96485#2" expanded="true" />
-            <element signature="e#97502#97738#2" expanded="true" />
-            <element signature="e#134954#135131#2" expanded="true" />
-            <element signature="e#135187#135364#2" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/style.default.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="1169" column="18" lean-forward="true" selection-start-line="1169" selection-start-column="18" selection-end-line="1169" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="171" selection-start-line="171" selection-end-line="171" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#842#874#0" />
-            <element signature="method#getListWithJson#0;class#ArticleController#0" />
-            <element signature="method#saveById#0;class#ArticleController#0" />
-            <element signature="method#getAll#0;class#ArticleController#0" />
-            <element signature="e#2973#2986#0" />
-            <element signature="method#look#0;class#ArticleController#0" />
-            <element signature="method#getListWithJson2#0;class#ArticleController#0" />
-            <element signature="method#findType#0;class#ArticleController#0" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#251#252#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#316#317#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#389#390#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#575#576#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/MotifDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="23" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Motif.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="6" column="27" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/domain/Article.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery-3.3.1.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="23" />
+        <state relative-caret-position="358">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -850,8 +686,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/Impl/MotifImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="300">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/service/MotifService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -860,68 +703,143 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/MotifController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="380">
+          <caret line="37" column="14" selection-start-line="37" selection-start-column="14" selection-end-line="37" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#findAll#0;class#MotifController#0" />
+            <element signature="method#getMotif#0;class#MotifController#0" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/list.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MotifDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+        <state relative-caret-position="398">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/Dao/ArticleDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ArticleDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="-160">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/css/fontastic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/avatar-1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/lzj_post.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1780">
+          <caret line="89" column="62" selection-start-line="89" selection-start-column="51" selection-end-line="89" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/lzj-js/lzjArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/travelArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1240">
+          <caret line="62" column="58" selection-start-line="62" selection-start-column="58" selection-end-line="62" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/liveArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2120">
+          <caret line="106" column="68" selection-start-line="106" selection-start-column="68" selection-end-line="106" selection-end-column="68" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-20">
-          <caret line="168" column="74" lean-forward="true" selection-start-line="168" selection-start-column="74" selection-end-line="168" selection-end-column="74" />
+        <state relative-caret-position="560">
+          <caret line="28" column="12" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
           <folding>
-            <element signature="n#script#2;n#head#0;n#html#0;n#!!top" />
-            <element signature="n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#div#0;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#aside#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/b1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/img/bg_3.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pageArticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4100">
+          <caret line="205" column="65" selection-start-line="205" selection-start-column="65" selection-end-line="205" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/live.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="102" column="51" selection-start-line="102" selection-start-column="51" selection-end-line="102" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#main#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/qf/controller/ArticleController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="284" lean-forward="true" selection-start-line="284" selection-end-line="284" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#saveById#0;class#ArticleController#0" />
+            <element signature="method#getAll#0;class#ArticleController#0" />
+            <element signature="e#2972#2985#0" />
+            <element signature="method#getListWithJson2#0;class#ArticleController#0" />
+            <element signature="method#findType#0;class#ArticleController#0" />
+            <element signature="method#getListTravelJson#0;class#ArticleController#0" />
+            <element signature="method#getListTravelJson2#0;class#ArticleController#0" />
+            <element signature="method#getListLiveJson#0;class#ArticleController#0" />
+            <element signature="method#LiveJson2#0;class#ArticleController#0" />
+            <element signature="method#aNew#0;class#ArticleController#0" />
+            <element signature="method#early#0;class#ArticleController#0" />
+            <element signature="method#most#0;class#ArticleController#0" />
+            <element signature="method#writer#0;class#ArticleController#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/travel.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        <state relative-caret-position="2120">
+          <caret line="106" column="46" selection-start-line="106" selection-start-column="46" selection-end-line="106" selection-end-column="46" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/SpringArticle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-498">
-          <caret line="36" column="64" selection-start-line="36" selection-start-column="57" selection-end-line="36" selection-end-column="64" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/1127project/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/pageArticle.js">
+    <entry file="file://$PROJECT_DIR$/1127project2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="80" column="23" lean-forward="true" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="460">
+          <caret line="284" column="27" lean-forward="true" selection-start-line="284" selection-start-column="27" selection-end-line="284" selection-end-column="27" />
         </state>
       </provider>
     </entry>

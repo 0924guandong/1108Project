@@ -7,31 +7,26 @@
     <!-- theme stylesheet-->
     <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
     <link rel="stylesheet" href="css/fontastic.css">
+<!--    <link rel="stylesheet" href="css/my.css2">-->
     <script src="js/jquery-3.3.1.min.js"></script>
 <!--    <script src="js/Article.js" type="text/javascript"></script>-->
     <script src="js/pageArticle.js" type="text/javascript"></script>
-<script>
-    // function tolike(){
-    //     $("#submit2").click(function () {
-    //         alert(678);
-    //         var text = $("#text").value();
-    //         $.ajax({
-    //             url:"/getListWithJson2",
-    //             // data:$("#form").serialize()+"&_method=PUT",
-    //             // data:{"pageNo=":pageNo,text:text},
-    //             data:$("#form").serialize(),"pageNo=":pageNo,
-    //             type:"GET",
-    //             // dataType:"json",
-    //             success:function (result) {
-    //                 //1.解析并显示学生信息数据
-    //                 build_article_table(result);
-    //                 build_page_info(result);
-    //                 build_page_nav(result);
-    //             }
-    //         })
-    //     })
-    // }
-</script>
+<!--    <script src="js/jquery%25E8%25BE%2593%25E5%2585%25A5-1-jq" type="text/javascript"></script>-->
+    <script src="js/getUrlParam.js" type="text/javascript"></script>
+<!--    <script>-->
+<!--        $(function () {-->
+<!--            var testIUd = UrlParam.paramValues("testId");-->
+<!--            alert(testIUd);-->
+<!--        })-->
+<!--    </script>-->
+
+    <style>
+        body{
+            background: url("img/banner-image.jpg") no-repeat;
+            background-size: 100%;
+            background-position: center;
+        }
+    </style>
 
 </head>
 <body>
@@ -57,7 +52,7 @@
         <div class="container">
             <!-- Navbar Brand -->
             <div class="navbar-header d-flex align-items-center justify-content-between">
-                <!-- Navbar Brand --><a href="index.html" class="navbar-brand">风花雪月论坛</a>
+                <!-- Navbar Brand --><a href="header.html" class="navbar-brand">风花雪月论坛</a>
                 <!-- Toggle Button-->
                 <button type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span></span><span></span><span></span></button>
             </div>
@@ -65,23 +60,31 @@
             <div id="navbarcollapse" class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
 
-                    <li class="nav-item"><a href="#" class="nav-link active ">主页</a>
+                    <li class="nav-item"><a href="header.html" class="nav-link active ">主页</a>
                     </li>
-                    <li class="nav-item"><a href="list.html" class="nav-link ">博客</a>
+                    <li class="nav-item"><a href="header.html" class="nav-link ">博客</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link ">文章</a>
+                    <li class="nav-item"><a href="travel.html" class="nav-link ">旅游</a>
                     </li>
-                    <li class="nav-item"><a href="#" class="nav-link ">联系人</a>
+                    <li class="nav-item"><a href="live.html" class="nav-link ">生活</a>
                     </li>
                 </ul>
-                <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-search-1"></i></a></div>
+                <div class="navbar-text"><a href="#" class="search-btn"><i class="icon-comment">发帖</i></a></div>
 <!--                <ul class="langs navbar-text"><a href="#" class="active">EN</a><span>           </span><a href="#">ES</a></ul>-->
             </div>
         </div>
     </nav>
 </header>
 
-<a href="insert.jsp">增加</a>
+<!--<a href="insert.jsp">增加</a>-->
+
+<div  style="position: relative;left: 338px" >
+    <button class="submit" id="sub1" >最新</button>
+    <span>|</span>
+    <button class="submit" id="sub2" >最早</button>
+    <span>|</span>
+    <button class="submit" id="sub3">观看次数最多</button>
+</div>
 
 <div class="container">
     <div class="row" id="dd" >
@@ -89,24 +92,28 @@
         <main class="posts-listing col-lg-8">
             <div class="container">
                 <div class="row" id="delete">
+                    <div class="wm-nav-r-title" data-tab='tle'  >
+                        <!--    <div class="wm-nav-r-title-left fl">男生小说人气榜</div>-->
+                    </div>
                     <!-- post -->
-                    <div class="post col-xl-8 " id="div22" style="position: relative;left: 100px">
-<!--                        <div class="post-thumbnail"><a href="#"><img src="img/1.jpg" alt="..." class="img-fluid"></a></div>-->
+                    <div class="post col-xl-10 " id="div22" style="position: relative;left: 100px">
+
+                        <!--                        <div class="post-thumbnail"><a href="#"><img src="img/1.jpg" alt="..." class="img-fluid"></a></div>-->
                         <div class="post-details">
                             <div class="post-meta d-flex justify-content-between">
 <!--                                <div class="date meta-last">20 May | 2016</div>-->
                                 <div class="category"><a href="#"></a></div>
                             </div><a href="post.html">
-                            <h3 class="h4">Alberto Savoia Can Teach You About Interior</h3></a>
-                            <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                            <h3 class="h4"></h3></a>
+                            <p class="text-muted"></p>
                             <footer class="post-footer d-flex align-items-center">
 <!--                                <a href="#" class="author d-flex align-items-center flex-wrap">-->
 <!--                                <div class="avatar"><img src="img/avatar-3.jpg" alt="..." class="img-fluid"></div>-->
-                                <div class="title"><span>xxx</span></div></a>
+                                <div class="title"><span></span></div></a>
 <!--                                <div class="date"><i class="icon-clock"></i> 20 May | 2016</div2>-->
                                 <div class="date"><i class="icon-clock"></i> </div>
 <!--                                <div class="date meta-last">20 May | 2016</div>-->
-                                <div class="views meta-last"><i class="icon-eye"></i>  观看次数12</div>
+                                <div class="views meta-last"><i class="icon-eye"></i></div>
                             </footer>
                         </div>
                     </div>
@@ -134,8 +141,17 @@
                 </header>
                 <form action="#" class="search-form" id="form">
                     <div class="form-group">
-                        <input type="text" id="text" placeholder="What are you looking for?">
+                        <input type="text" id="text" placeholder="点点我">
                         <button id="submit2" class="submit" /><i class="icon-search" ></i></input>
+                    </div>
+                </form>
+                <div>
+                    <h3 class="h6">作者</h3>
+                </div>
+                <form action="#" class="search-form" id="form2">
+                    <div class="form-group">
+                        <input type="text" id="text2" placeholder="查查我">
+                        <button id="header"  class="submit" /><i class="icon-search" ></i></input>
                     </div>
                 </form>
             </div>
@@ -176,19 +192,16 @@
             <!-- Widget [Categories Widget]-->
             <div class="widget categories">
                 <header>
-                    <h3 class="h6">类型（可加链接！！！）</h3>
+                    <h3 class="h6">类型</h3>
                 </header>
                 <div class="item d-flex justify-content-between" id="type"><a href="#">分类</a><span>篇数</span></div>
-<!--                <div class="item d-flex justify-content-between"><a href="#">生活篇</a><span>25</span></div>-->
-<!--                <div class="item d-flex justify-content-between"><a href="#">Sales</a><span>8</span></div>-->
-<!--                <div class="item d-flex justify-content-between"><a href="#">Tips</a><span>17</span></div>-->
-<!--                <div class="item d-flex justify-content-between"><a href="#">Local</a><span>25</span></div>-->
+
             </div>
             <!-- Widget [Tags Cloud Widget]-->
 <!--            标签-->
             <div class="widget tags">
                 <header>
-                    <h3 class="h6">标签(可加链接！！！)</h3>
+                    <h3 class="h6">标签</h3>
                 </header>
 <!--                <ul class="list-inline">-->
 <!--&lt;!&ndash;                    <li class="list-inline-item" id="ul"><a href="#" class="tag"></a></li>&ndash;&gt;-->
